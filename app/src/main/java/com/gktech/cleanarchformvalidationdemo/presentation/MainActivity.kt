@@ -24,7 +24,7 @@ import kotlinx.coroutines.flow.collect
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        print("Experimental branch 1")
+        print("Experimental branch 2")
         setContent {
             CleanArchFormValidationDemoTheme {
                 // A surface container using the 'background' color from the theme
